@@ -11,8 +11,8 @@ def div(*meaning):
        res = meaning1 / meaning2
    except ValueError:
        return 'Value error'
-   except ZeroDivisionError:
-       return "Не то значение! Вы не можете использовать ноль в качестве делителя!"
+   except ZeroDivisionError as err:
+       return ("Не то значение! Вы не можете использовать ноль в качестве делителя!", err)
 
    return res
 
