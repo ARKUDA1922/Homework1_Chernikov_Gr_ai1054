@@ -8,5 +8,5 @@
 оператора **, предусматривающая использование цикла.'''
 
 def my_func(x,y):
-    return  (x ** y)
-print(my_func(2, 5))
+    return  1 / (x ** y)
+print(my_func(2, -5))
