@@ -7,11 +7,7 @@ from sys import argv
 
 def sal(time, salary, bonus):
     try:
-        time = int(time)
-        salary = int(salary)
-        bonus = int(bonus)
-        res = time * salary + bonus
-        print(f'заработная плата сотрудника  {res}')
-        print(f"Зарплата- {sal(*map( argv[1:]))}")
+        return time * salary + bonus
     except ValueError:
         print('Not a number')
+print(f"Зарплата- {sal(*map(float, argv[1:]))}")
