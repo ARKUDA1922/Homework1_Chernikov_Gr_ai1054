@@ -4,8 +4,6 @@
 всех элементов списка.
 Подсказка: использовать функцию reduce().'''
 
-
-
 from functools import reduce
 
 
